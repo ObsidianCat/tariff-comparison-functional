@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should produce a formatted and readable comparisons overview 1`] = `
+"Packaged tariff: 950.00 EUR 
+basic electricity tariff: 1050.00 EUR 
+"
+`;
+
+exports[`should produce sorted array of comparisons 1`] = `
+Array [
+  Object {
+    "message": "Packaged tariff: 950.00 EUR",
+    "precisePrice": 95000,
+  },
+  Object {
+    "message": "basic electricity tariff: 1050.00 EUR",
+    "precisePrice": 105000,
+  },
+]
+`;
