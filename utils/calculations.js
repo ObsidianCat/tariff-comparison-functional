@@ -7,7 +7,7 @@ const calculations = {
     return basePrice
   }
 
-  return ((amountPerYear-consumptionLimit) * 30) + basePrice
+  return ((amountPerYear-consumptionLimit) * overLimitPricePerUnit) + basePrice
 }}
 
 module.exports.calcPriceForConsumer = (amountPerYear, tariff) =>{
