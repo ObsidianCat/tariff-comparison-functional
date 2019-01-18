@@ -18,5 +18,5 @@ module.exports.tariffsList = [
     consumptionLimit: 4000,
     overLimitPricePerUnit: 30,
     basePrice: 80000
-  },
-]
+  }
+];
