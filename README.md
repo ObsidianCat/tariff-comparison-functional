@@ -8,7 +8,7 @@
 
 After starting the app, follow instructions in your terminal. <br>
 Examples of valid input
-``4500``
+``4500``<br>
 ``6000``
 
 
